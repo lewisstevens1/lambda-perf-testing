@@ -1,0 +1,71 @@
+[{
+  "id": 1,
+  "first_name": "Linc",
+  "last_name": "McClory",
+  "email": "lmcclory0@google.pl",
+  "gender": "Male",
+  "ip_address": "187.142.101.38"
+}, {
+  "id": 2,
+  "first_name": "Benita",
+  "last_name": "Reisen",
+  "email": "breisen1@dell.com",
+  "gender": "Female",
+  "ip_address": "39.96.158.142"
+}, {
+  "id": 3,
+  "first_name": "Kinnie",
+  "last_name": "Downey",
+  "email": "kdowney2@nationalgeographic.com",
+  "gender": "Male",
+  "ip_address": "179.198.111.42"
+}, {
+  "id": 4,
+  "first_name": "Henrietta",
+  "last_name": "Filmer",
+  "email": "hfilmer3@npr.org",
+  "gender": "Female",
+  "ip_address": "231.32.143.212"
+}, {
+  "id": 5,
+  "first_name": "Englebert",
+  "last_name": "Cankett",
+  "email": "ecankett4@jalbum.net",
+  "gender": "Male",
+  "ip_address": "175.34.18.82"
+}, {
+  "id": 6,
+  "first_name": "Ursulina",
+  "last_name": "Strettell",
+  "email": "ustrettell5@51.la",
+  "gender": "Female",
+  "ip_address": "224.106.144.244"
+}, {
+  "id": 7,
+  "first_name": "Antone",
+  "last_name": "Ridout",
+  "email": "aridout6@wix.com",
+  "gender": "Male",
+  "ip_address": "123.10.81.150"
+}, {
+  "id": 8,
+  "first_name": "Wylie",
+  "last_name": "Sword",
+  "email": "wsword7@senate.gov",
+  "gender": "Male",
+  "ip_address": "134.136.39.253"
+}, {
+  "id": 9,
+  "first_name": "Julio",
+  "last_name": "Simonassi",
+  "email": "jsimonassi8@hugedomains.com",
+  "gender": "Male",
+  "ip_address": "81.227.169.214"
+}, {
+  "id": 10,
+  "first_name": "Alexis",
+  "last_name": "Blasiak",
+  "email": "ablasiak9@about.com",
+  "gender": "Male",
+  "ip_address": "67.15.168.78"
+}]

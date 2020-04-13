@@ -1,1 +1,0 @@
-# lambda-perf-testing
