@@ -125,7 +125,12 @@ def run_benchmark(args):
             MemorySize=original_memory_size,
         )
     
-    with open(args.output_file, 'wt') as output_results:
+    if len(args.output_file) > 0:
+        output_file = args.output_file
+    else:
+        output_file = f'results_{args.function_name}.csv'
+        
+    with open(output_file, 'wt') as output_results:
         output_results.write(CSV_HEADER)
         
         for payload_object in payload_files:
@@ -140,7 +145,7 @@ def run_benchmark(args):
                     '%.2f' % (price,)
                 ))
     
-    print("Output written to results.csv")
+    print(f"Output written to {output_file}")
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(
@@ -165,6 +170,7 @@ if __name__ == '__main__':
         help='Tested function region.'
     )
     parser.add_argument(
+        '-p',
         '--profile',
         dest='aws_profile',
         default=False,
@@ -172,9 +178,10 @@ if __name__ == '__main__':
         help='A specific AWS Named Profile configured within your AWS Credentials file.'
     )
     parser.add_argument(
+        '-o',
         '--output',
         dest='output_file',
-        default='results.csv',
+        default='',
         help='Output results filename.'
     )
 
