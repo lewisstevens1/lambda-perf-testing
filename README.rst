@@ -41,4 +41,4 @@ Export Example
 
 Chart:
 
-.. image:: https://github.com/epsagon/lambda-memory-performance-benchmark/blob/master/fibonacci-function/performance_chart.png
+.. image:: https://github.com/lewisstevens1/lambda-perf-testing/blob/master/fibonacci-function/performance_chart.png
